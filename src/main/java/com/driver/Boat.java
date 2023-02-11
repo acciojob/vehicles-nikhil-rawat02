@@ -12,7 +12,7 @@ public class Boat implements WaterVehicle{
         this.capacity = capacity;
     }
 
-    Boat(String name, int capacity){
+    public Boat(String name, int capacity){
         setName(name);
         setCapacity(capacity);
     }
